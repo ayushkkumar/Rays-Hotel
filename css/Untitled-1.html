@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Roboto, Helvetica, sans-serif;
+        }
+
+        #navbar {
+            width: 100%;
+            background-color: #1A73E8;
+            overflow: hidden;
+            box-shadow: 0 2px 6px 1.5px rgba(0,0,255,.3);
+        }
+
+        #navbar h1 {
+            float: left;
+            padding: 20px;
+        }
+
+        #navbar a {
+            color: #CADEFA;
+            text-decoration: none;
+        }
+
+        #navbar ul {
+            list-style: none;
+            float: right;
+        }
+
+        #navbar ul li {
+            float: left;
+        }
+
+        #navbar ul li a {
+            display: block;
+            padding: 25px;
+            text-align: center;
+        }
+
+        #navbar a:hover{
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="container">
+            <h1 id="name"><a href="/">AIMERS</a></h1>
+            <ul>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/signup">Signup</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>

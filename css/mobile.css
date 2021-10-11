@@ -1,0 +1,89 @@
+/* Navbar */
+#navbar #logo {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul {
+    float: none;
+    display: table;
+    margin: 0 auto;
+}
+
+/* Showcase */
+#showcase .showcase-content {
+    padding-top: 150px;
+}
+
+.text-primary {
+    display: block;
+    margin-bottom:20px;
+}
+
+/* Home Info */
+#home-info .info-img {
+    display: none;
+}
+
+#home-info .info-content {
+    float: none;
+    width: 100%;
+    font-size: 1.12em;
+    line-height: 1.7em;
+}
+
+.box {
+    float: none;
+    width: 100%;
+    padding: 50px;
+}
+
+.box-2 {
+    margin: 10px 0;
+}
+
+/* About */
+#about-info .info-right,
+#about-info .info-left {
+    float:none;
+    width: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+}
+
+main {
+    padding-top: 120px;
+}
+
+.l-heading {
+    line-height: 45px;
+}
+
+.testimonial img {
+    width: 150px;
+    float: none;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.makeitinline {
+    display: inline;
+}
+
+#contact-form textarea {
+    height: 120px;
+}
+
+.contact-us {
+    float: none;
+    width: 100%;
+    padding: 16px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
